@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  color: var(--clr-primary);
+  line-height: 1.4;
+  background-color: var(--clr-secondary);
+  transition: ease-in-out .1s;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  text-align: center;
+}
+
+select {
+  margin-left: 3px;
+  padding: 2px 5px;
+  color: var(--button-primary);
+  background-color: var(--button-secondary);
+  border-color: #bbb;
+}
+
+.theme-selector-container {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin: 15px auto;
+  padding: 15px;
+}

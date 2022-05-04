@@ -1,0 +1,6 @@
+:root {
+  --clr-primary: #cf6bdd;
+  --clr-secondary: #101820;
+  --button-primary: var(--clr-primary);
+  --button-secondary: #05070a;
+}
